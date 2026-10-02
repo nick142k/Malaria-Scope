@@ -1,0 +1,29 @@
+{
+    "model": "ResNet-18",
+    "checkpoint": "D:\\Malaria Scope\\models\\thick_baseline\\best_model.pth",
+    "test_images": 332,
+    "class_definition": {
+        "0": "parasite_absent",
+        "1": "parasite_present"
+    },
+    "accuracy": 0.9789156626506024,
+    "precision": 0.9880952380952381,
+    "recall_sensitivity": 0.9707602339181286,
+    "specificity": 0.9875776397515528,
+    "f1": 0.9793510324483776,
+    "roc_auc": 0.9971305074279903,
+    "true_negative": 159,
+    "false_positive": 2,
+    "false_negative": 5,
+    "true_positive": 166,
+    "confusion_matrix": [
+        [
+            159,
+            2
+        ],
+        [
+            5,
+            166
+        ]
+    ]
+}
